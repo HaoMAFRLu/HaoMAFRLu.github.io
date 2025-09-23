@@ -9,9 +9,9 @@ permalink: /publication/learning_based_iterative_control
 excerpt: ''
 date: 2022-07-01
 venue: 'Robotics: Science and Systems'
-paperurl: 'https://link.springer.com/content/pdf/10.1007/s10514-023-10140-6.pdf'
+paperurl: 'https://www.roboticsproceedings.org/rss18/p029.pdf'
 # slidesurl: "https://mysite.com/slides.pdf"
-# bibtexurl: "https://mysite.com/bibtex.bib"
+bibtexurl: "../files/bibtex-learning-based-iterative-control.bib"
 # video: 'https://www.youtube.com/watch?v=kR9jowEH7PY'
 # code: "https://github.com/username/repo"
 # dataset: "https://zenodo.org/record/xxxxx"
