@@ -1,17 +1,19 @@
 ---
-title: "Reinforcement learning with model-based feedforward inputs for robotic table tennis"
-authors: "<b>Hao Ma</b>, Dieter B\"uchler, Bernhard Scholkopf, Michael Muehlebach"
+published: false
+---
+title: "Template"
+authors: "<b>Hao Ma</b>,  M&uuml;ller, Schr&ouml;der, J&auml;ger"
 header:
   teaser: "/pubs/interception.png" 
 collection: publications
-category: others
-permalink: /publication/reinforcement_learning_model_based
+category: others  # manuscripts, conferences
+permalink: /publication/test
 excerpt: ''
 date: 2023-10-17
 venue: 'Autonomous Robots'
 paperurl: 'https://link.springer.com/content/pdf/10.1007/s10514-023-10140-6.pdf'
 slidesurl: "https://mysite.com/slides.pdf"
-bibtexurl: "https://mysite.com/bibtex.bib"
+bibtexurl: "../files/bibtex1.bib"
 video: 'https://www.youtube.com/watch?v=kR9jowEH7PY'
 code: "https://github.com/username/repo"
 dataset: "https://zenodo.org/record/xxxxx"

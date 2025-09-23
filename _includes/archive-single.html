@@ -73,6 +73,11 @@
         <a href="{{ post.paperurl }}">Paper</a>
         {% assign links = "yes" %}
       {% endif %}
+      {% if post.project %}
+        {% if links == "yes" %} | {% endif %}
+        <a href="{{ post.project }}">Project</a>
+        {% assign links = "yes" %}
+      {% endif %}
       {% if post.slidesurl %}
         {% if links == "yes" %} | {% endif %}
         <a href="{{ post.slidesurl }}">Slides</a>
