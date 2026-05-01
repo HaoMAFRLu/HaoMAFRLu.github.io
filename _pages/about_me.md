@@ -7,7 +7,7 @@ permalink: /
 # About
 I am a PhD student in the **[Center for Learning Systems](https://learning-systems.org/)** doctoral program, jointly affiliated with the **[Max Planck Institute for Intelligent Systems (MPI-IS)](https://is.mpg.de/)** and **[ETH Zurich](https://ethz.ch/en.html)**. At MPI-IS, I am fortunate to be advised by **[Dr. Michael Muehlebach](https://sites.google.com/view/mmuehlebach/)**, and at ETH Zurich by **[Prof. Melanie Zeilinger](https://idsc.ethz.ch/research-zeilinger/people/person-detail.MTQyNzM3.TGlzdC8xOTI5LDg4NTM5MTE3.html)**.  
 
-My research interests lie in the intersection of **machine learning** and **control theory**. I aim to develop a new framework to understand key properties such as stability, convergence, and robustness in machine learning algorithms. Moreover, I want to bridge the gap between theory and practice in machine learning. In addition, I have a strong interest in **diffusion models** and **large language models**, exploring their potential in advancing both theoretical understanding and practical applications in robotics and autonomous systems.
+My research focuses on **embodied intelligence**, with the goal of enabling robots to achieve autonomous learning in the real world. I believe this cannot be achieved through a single approach, but instead calls for a system-level perspective that brings together adaptive control, safety-aware planning, and on-device intelligence. I approach these challenges through model-based online learning, constraint-aware generative planning, and efficient inference of foundation models on edge devices.
 
 # Recent news
 
