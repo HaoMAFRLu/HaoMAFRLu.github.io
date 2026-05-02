@@ -4,12 +4,12 @@ authors: "<b>Hao Ma</b>,  Melanie Zeilinger, Michael Muehlebach"
 header:
   teaser: "/pubs/estimate.png" 
 collection: publications
-category: others  # manuscripts, conferences
+category: manuscripts  # manuscripts, conferences
 permalink: /publication/stochastic-optimization
 excerpt: ''
-date: 2024-04-08
-venue: 'arXiv'
-paperurl: 'https://arxiv.org/abs/2404.05318'
+date: 2025-12-18
+venue: 'Machine Learning'
+paperurl: 'https://link.springer.com/article/10.1007/s10994-025-06929-4'
 # slidesurl: "https://mysite.com/slides.pdf"
 bibtexurl: "../files/bibtex-stochastic-optimization.bib"
 video: 'https://www.youtube.com/watch?v=OLVvKGba7PA'
