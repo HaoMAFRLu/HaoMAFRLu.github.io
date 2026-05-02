@@ -11,6 +11,11 @@ My research focuses on **embodied intelligence**, with the goal of enabling robo
 
 # Recent news
 
+- **Apr 30, 2026**: Our paper *SALAAD: Sparse And Low-Rank Adaptation via ADMM for Large Language Model Inference* was accepted to **[ICML 2026](https://icml.cc/Conferences/2026)**, which will be held in **Seoul, South Korea**, where I will present the poster.
+- **Apr 1, 2026**: I started as a postdoctoral researcher in **[Prof. Melanie Zeilinger's group](https://idsc.ethz.ch/research-zeilinger.html)** at **[ETH Zurich](https://ethz.ch/en.html)**.
+- **Mar 25, 2026**: Our paper *SALAAD: Sparse And Low-Rank Adaptation via ADMM for Large Language Model Inference* was selected as a recent spotlight at **CPAL 2026** in Tuebingen, where I presented the poster.
+- **Feb 2026**: I taught the course *Signals and Systems* at **Ashesi University** in Ghana.
+- **Dec 15, 2025**: I successfully defended my PhD thesis, *Robot Learning under Control-Theoretic Constraints: From Offline Generalization to Online Adaptation*.
 - **Sep 17, 2025**: I presented a contributed talk at the **[EWRL 2025](https://euro-workshop-on-reinforcement-learning.github.io/ewrl18/)**, entitled *Provably Efficient Online Learning in Real-World Cyber-Physical and Robotic Systems*.
 - **Sep 2025**: Our demo proposal *CRS – An Open-Source, Low-Cost, and Modular Platform for Robot Learning Research* was accepted at **[CoRL 2025](https://corl2025.org)**.
 - **Sep 2025**: Our paper *CRS: An Open-Source, Low-Cost, and Modular Platform for Robot Learning Research* accepted at the **[Open-Source Hardware in Robot Learning Workshop](https://open-hardware-robots.github.io/CoRL2025/)** at **[CoRL 2025](https://corl2025.org)**.
