@@ -23,7 +23,7 @@ repository               : "HaoMAFRLu/HaoMAFRLu.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "cropped_profile.png"
+  avatar           : "profile_2.png"
   name             : "Hao Ma"
   pronouns         : # example: "she/her"  
   bio              : "Postdoc @ IDSC, ETH Zurich"
