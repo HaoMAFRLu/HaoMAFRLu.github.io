@@ -11,6 +11,7 @@ My research focuses on **embodied intelligence**, with the goal of enabling robo
 
 # Recent news
 
+- **Aug 2026**: I am co-organizing the **[NeurIPS 2026 Workshop on *On-Device Intelligence: Foundation Models under Real-World Constraints*](https://odi2026.github.io/)** in **Sydney, Australia**. Submissions are due **August 29, 2026 (AoE)**.
 - **Apr 30, 2026**: Our paper *SALAAD: Sparse And Low-Rank Adaptation via ADMM for Large Language Model Inference* was accepted to **[ICML 2026](https://icml.cc/Conferences/2026)**, which will be held in **Seoul, South Korea**, where I will present the poster.
 - **Apr 1, 2026**: I started as a postdoctoral researcher in **[Prof. Melanie Zeilinger's group](https://idsc.ethz.ch/research-zeilinger.html)** at **[ETH Zurich](https://ethz.ch/en.html)**.
 - **Mar 25, 2026**: Our paper *SALAAD: Sparse And Low-Rank Adaptation via ADMM for Large Language Model Inference* was selected as a recent spotlight at **CPAL 2026** in Tuebingen, where I presented the poster.
