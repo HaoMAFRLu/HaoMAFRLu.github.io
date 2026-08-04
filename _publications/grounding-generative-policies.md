@@ -1,6 +1,8 @@
 ---
 title: "Grounding Generative Policies in Physics: Optimization-Guided Diffusion for Robot Control"
 authors: "Sabrina Bodmer, Ren&eacute; Zurbr&uuml;gg, Tifanny Portela, <b>Hao Ma</b>, Alexandre Didier, Marco Hutter, Colin Jones, Melanie Zeilinger"
+header:
+  teaser: "/pubs/grounding-generative-policies.png"
 collection: publications
 category: others
 permalink: /publication/grounding-generative-policies
