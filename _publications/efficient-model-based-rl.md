@@ -4,11 +4,11 @@ authors: "Fang Nan, <b>Hao Ma</b>, Qinghua Guan, Josie Hughes, Michael Muehlebac
 header:
   teaser: "/pubs/online_mbrl_diagram.png"
 collection: publications
-category: others
+category: manuscripts
 permalink: /publication/efficient-model-based-rl
 excerpt: 'An online model-based reinforcement learning algorithm for efficient real-world robot control using dynamics models learned from interaction data.'
 date: 2025-10-21
-venue: 'arXiv preprint'
+venue: 'The International Journal of Robotics Research'
 paperurl: 'https://arxiv.org/abs/2510.18518'
 bibtexurl: '../files/bibtex-efficient-model-based-rl.bib'
 arxiv: '2510.18518'

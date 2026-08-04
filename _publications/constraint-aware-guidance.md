@@ -9,7 +9,7 @@ permalink: /publication/constraint-aware-guidance
 excerpt: ''
 date: 2025-09-27
 venue: 'Conference on Robot Learning'
-paperurl: 'https://link.springer.com/content/pdf/10.1007/s10514-023-10140-6.pdf'
+paperurl: 'https://arxiv.org/abs/2505.13131'
 # slidesurl: "https://mysite.com/slides.pdf"
 bibtexurl: "../files/bibtex-constraint-aware-guidance.bib"
 video: 'https://www.youtube.com/watch?v=KNYsTdtdxOU'

@@ -21,3 +21,6 @@ package-lock.json
 
 # Ignore the papers
 /papers
+
+# Keep the standalone CV repository colocated without tracking it here
+/CV_HM/
