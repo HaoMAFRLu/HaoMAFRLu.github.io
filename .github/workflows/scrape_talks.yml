@@ -28,6 +28,17 @@ jobs:
       run: |
         jupyter nbconvert --to notebook --execute talkmap.ipynb --output talkmap_out.ipynb
 
+    - name: Preserve global link behavior in the generated map
+      run: |
+        python - <<'PY'
+        from pathlib import Path
+        path = Path("talkmap/map.html")
+        html = path.read_text()
+        script = '<script defer src="../assets/js/link-targets.js"></script>'
+        if script not in html:
+            path.write_text(html.replace("</head>", script + "\n</head>", 1))
+        PY
+
     - name: Commit changes
       run: |
         git config user.name "github-actions[bot]"
