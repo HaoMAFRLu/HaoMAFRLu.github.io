@@ -30,7 +30,8 @@ author:
   location         : "Hong Kong/Shanghai"
   employer         : "The University of Hong Kong"
   uri              : # URL
-  email            : "haomah@ethz.ch" 
+  email            :
+  email_display    : "haoma AT hku DOT hk"
 
   # Academic websites
   academia         : # URL

@@ -247,7 +247,8 @@
     white-space: nowrap;
   }
 
-  a {
+  a,
+  .author__email {
     display: block;
     margin-bottom: 5px;
     padding-right: 5px;
@@ -256,9 +257,9 @@
     color: inherit;
     font-size: $type-size-5;
     text-decoration: none;
+  }
 
-    &:hover {
-      text-decoration: underline;
-    }
+  a:hover {
+    text-decoration: underline;
   }
 }
