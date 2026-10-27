@@ -1,0 +1,32 @@
+Source Serif 4 web fonts
+
+Downloaded: 2026-10-27
+Package: @fontsource-variable/source-serif-4@5.3.1
+Package URL: https://registry.npmjs.org/@fontsource-variable/source-serif-4/-/source-serif-4-5.3.1.tgz
+Package integrity (verified against npm registry): sha512-4Rtay22SC4lMvw11r/+9kxANB6P3M0X8s1NudBC2v0J1KU2y3DcMoNcT3lBoZ/CqLirzf+StlO6UlJilyrvaUg==
+Package information: https://fontsource.org/fonts/source-serif-4
+Embedded font version: 4.004
+Original typeface: https://github.com/adobe-fonts/source-serif
+OFL.txt source: https://raw.githubusercontent.com/adobe-fonts/source-serif/4.004R/LICENSE.md
+
+The WOFF2 files are unchanged Latin and Latin Extended subsets from the package.
+Each subset has separate normal and italic files and a continuous weight axis
+from 200 to 900, including weights 400, 600 and 700. These are weight-only
+variable files; they have no optical-size (opsz) axis. Declare the family name
+"Source Serif 4", the correct style, and font-weight: 200 900 in CSS.
+
+Verified from the WOFF2 name, fvar, OS/2 and cmap tables: correct font family,
+weight range, normal/italic flags, and coverage of English plus accented
+European names including Rene (René), Zurbrügg, Büchler, Schölkopf, Zürich,
+François, Łódź, Čížek, Østergaard and Dvořák. Unicode ranges below are the
+package CSS ranges; a range does not imply every code point has a glyph.
+
+Use these unicode-range descriptors to load subsets only when needed:
+latin: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD
+latin-ext: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C4,U+2113,U+2C60-2C7F,U+A720-A7FF
+
+Unmodified file SHA-256 checksums:
+14e38c2d6a4ea6effcddde38f0262c03af252cbf82dbc68037f2d6c9112f2097  source-serif-4-latin-ext-wght-italic.woff2
+d10ccbbd0dc4ebae2938958dc1f622a53460fe297e9c958564742dd684309c3f  source-serif-4-latin-ext-wght-normal.woff2
+b4f56ddc9873487f1c9a3ad5bbce31982fe89b951f57e4604f62b4c8a540fb19  source-serif-4-latin-wght-italic.woff2
+382475f38242c52d42a3e5ff8dc69b5d73f10d0d21e4550b5fe232984688779a  source-serif-4-latin-wght-normal.woff2
