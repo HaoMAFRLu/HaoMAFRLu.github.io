@@ -1,29 +1,30 @@
-/* Open page and file links in new tabs without changing in-page controls. */
+/* Keep site navigation in this tab; open external sites and files in new tabs. */
 (() => {
   const selector = "a[href], area[href]";
   const originalTargets = new WeakMap();
 
-  function isNavigationLink(link) {
+  function linkTarget(link) {
     const href = (link.getAttribute("href") || "").trim();
-    if (!href || href.startsWith("#")) return false;
+    if (!href) return null;
 
     let url;
     try {
       url = new URL(href, document.baseURI);
     } catch {
-      return false;
+      return null;
     }
 
-    if (url.protocol !== "http:" && url.protocol !== "https:") return false;
+    if (url.protocol !== "http:" && url.protocol !== "https:") return null;
 
-    // Full URLs to this page's sections are still in-page navigation.
     const current = new URL(window.location.href);
-    return !(href.includes("#") && url.origin === current.origin &&
-      url.pathname === current.pathname && url.search === current.search);
+    const isFile = link.hasAttribute("download") ||
+      /\.(?:pdf|bib|zip|gz|tar|7z|rar|docx?|xlsx?|pptx?|csv|tsv|txt|json|xml|png|jpe?g|gif|svg|webp|mp4|webm|mp3|wav)$/i.test(url.pathname);
+    return url.origin !== current.origin || isFile ? "_blank" : "_self";
   }
 
   function updateLink(link) {
-    if (!isNavigationLink(link)) {
+    const desiredTarget = linkTarget(link);
+    if (desiredTarget === null) {
       if (originalTargets.has(link)) {
         const target = originalTargets.get(link);
         originalTargets.delete(link);
@@ -36,9 +37,10 @@
     if (!originalTargets.has(link)) {
       originalTargets.set(link, link.getAttribute("target"));
     }
-    if (link.getAttribute("target") !== "_blank") {
-      link.setAttribute("target", "_blank");
+    if (link.getAttribute("target") !== desiredTarget) {
+      link.setAttribute("target", desiredTarget);
     }
+    if (desiredTarget !== "_blank") return;
     const rel = new Set((link.getAttribute("rel") || "").split(/\s+/).filter(Boolean));
     rel.add("noopener");
     rel.add("noreferrer");
@@ -65,7 +67,7 @@
     childList: true,
     subtree: true,
     attributes: true,
-    attributeFilter: ["href", "target", "rel"]
+    attributeFilter: ["href", "target", "rel", "download"]
   });
 
   // Also cover links created and clicked before the observer's next callback.

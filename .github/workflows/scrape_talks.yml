@@ -34,7 +34,7 @@ jobs:
         from pathlib import Path
         path = Path("talkmap/map.html")
         html = path.read_text()
-        script = '<script defer src="../assets/js/link-targets.js"></script>'
+        script = '<script defer src="../assets/js/link-targets.js?v=2"></script>'
         if script not in html:
             path.write_text(html.replace("</head>", script + "\n</head>", 1))
         PY
