@@ -24,7 +24,7 @@ main:
   #   url: /year-archive/
     
   - title: "CV"
-    url: https://haomafrlu.github.io/CV_HM/CV.pdf
+    url: /CV_HM/CV.pdf
     
   # - title: "CV"
   #   url: /cv-json/

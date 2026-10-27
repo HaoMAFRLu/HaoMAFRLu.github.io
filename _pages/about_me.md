@@ -5,12 +5,17 @@ permalink: /
 ---
 
 # About
-I am a postdoctoral researcher in **[Prof. Melanie Zeilinger's group](https://idsc.ethz.ch/research-zeilinger.html)** at **[ETH Zurich](https://ethz.ch/en.html)**. I received my PhD from the **[Center for Learning Systems](https://learning-systems.org/)** doctoral program, where I was jointly affiliated with the **[Max Planck Institute for Intelligent Systems (MPI-IS)](https://is.mpg.de/)** and ETH Zurich, advised by **[Dr. Michael Muehlebach](https://sites.google.com/view/mmuehlebach/)** and Prof. Melanie Zeilinger.  
+I am a postdoctoral researcher at **[The University of Hong Kong (HKU)](https://www.hku.hk/)**, working with **[Prof. Yi Ma](https://www.ai.hku.hk/people/academic-staff/mayi/biography)** since October 2026. Previously, I was a postdoctoral researcher in **[Prof. Melanie Zeilinger's group](https://idsc.ethz.ch/research-zeilinger.html)** at **[ETH Zurich](https://ethz.ch/en.html)** from April to September 2026.
+
+I received my PhD from the **[Center for Learning Systems](https://learning-systems.org/)** doctoral program, where I was jointly affiliated with the **[Max Planck Institute for Intelligent Systems (MPI-IS)](https://is.mpg.de/)** and ETH Zurich, advised by **[Dr. Michael Muehlebach](https://sites.google.com/view/mmuehlebach/)** and Prof. Melanie Zeilinger.
 
 My research focuses on **embodied intelligence**, with the goal of enabling robots to achieve autonomous learning in the real world. I believe this cannot be achieved through a single approach, but instead calls for a system-level perspective that brings together adaptive control, safety-aware planning, and on-device intelligence. I approach these challenges through model-based online learning, constraint-aware generative planning, and efficient inference of foundation models on edge devices.
 
 # Recent news
 
+- **Oct 2026**: Our paper *[Grounding Generative Policies in Physics: Optimization-Guided Diffusion for Robot Control](/publication/grounding-generative-policies)* was accepted at **CoRL 2026**.
+- **Oct 1, 2026**: I started as a postdoctoral researcher at **[The University of Hong Kong (HKU)](https://www.hku.hk/)**, working with **[Prof. Yi Ma](https://www.ai.hku.hk/people/academic-staff/mayi/biography)**.
+- **Sep 30, 2026**: I completed my postdoctoral appointment in **[Prof. Melanie Zeilinger's group](https://idsc.ethz.ch/research-zeilinger.html)** at **[ETH Zurich](https://ethz.ch/en.html)**.
 - **Aug 2026**: Our paper *[Efficient Model-Based Reinforcement Learning for Robot Control via Online Learning](/publication/efficient-model-based-rl)* was accepted for publication in **The International Journal of Robotics Research (IJRR)**.
 - **Aug 2026**: I am co-organizing the **[NeurIPS 2026 Workshop on *On-Device Intelligence: Foundation Models under Real-World Constraints*](https://odi2026.github.io/)** in **Sydney, Australia**. Submissions are due **August 29, 2026 (AoE)**.
 - **Apr 30, 2026**: Our paper *SALAAD: Sparse And Low-Rank Adaptation via ADMM for Large Language Model Inference* was accepted to **[ICML 2026](https://icml.cc/Conferences/2026)**, which will be held in **Seoul, South Korea**, where I will present the poster.

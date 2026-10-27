@@ -4,11 +4,11 @@ authors: "Sabrina Bodmer, Ren&eacute; Zurbr&uuml;gg, Tifanny Portela, <b>Hao Ma<
 header:
   teaser: "/pubs/grounding-generative-policies.png"
 collection: publications
-category: others
+category: conferences
 permalink: /publication/grounding-generative-policies
 excerpt: 'Inference-time optimization grounds diffusion policies in robot reachability, collision-avoidance, and controller-level feasibility constraints without retraining.'
 date: 2026-06-23
-venue: 'arXiv preprint'
+venue: 'Conference on Robot Learning'
 paperurl: 'https://arxiv.org/abs/2606.24208'
 bibtexurl: '../files/bibtex-grounding-generative-policies.bib'
 arxiv: '2606.24208'

@@ -11,8 +11,8 @@ locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
 title                    : "Home"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
+name                     : &name "Hao Ma"
+description              : &description "Hao Ma's academic portfolio: postdoctoral researcher at The University of Hong Kong, working on embodied intelligence, robot learning, and efficient foundation models."
 url                      : https://HaoMAFRLu.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "/HaoMAFRLu" # the subpath of your site, e.g. "/blog"
@@ -26,9 +26,9 @@ author:
   avatar           : "profile_2.png"
   name             : "Hao Ma"
   pronouns         : # example: "she/her"  
-  bio              : "Postdoc @ IDSC, ETH Zurich"
-  location         : "Zurich, Switzerland"
-  employer         : "ETH Zurich & MPI-IS"
+  bio              : "HKU-CDS"
+  location         : "Hong Kong/Shanghai"
+  employer         : "The University of Hong Kong"
   uri              : # URL
   email            : "haomah@ethz.ch" 
 
@@ -48,7 +48,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "https://github.com/HaoMAFRLu"
+  github           : "HaoMAFRLu"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
